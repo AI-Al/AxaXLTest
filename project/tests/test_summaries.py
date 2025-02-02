@@ -107,14 +107,12 @@ def test_update_summary_invalid_json(test_app_with_db):
                 "loc": ["body", "url"],
                 "msg": "Field required",
                 "type": "missing",
-                "url": "https:errors.pydantic.dev/2.5/v/missing",
             },
             {
                 "input": {},
                 "loc": ["body", "summary"],
                 "msg": "Field required",
                 "type": "missing",
-                "url": "https:errors.pydantic.dev/2.5/v/missing",
             }
         ]
     }
@@ -138,7 +136,6 @@ def test_update_summary_invalid_keys(test_app_with_db):
                 "loc": ["body", "summary"],
                 "msg": "Field required",
                 "type": "missing",
-                "url": "https:errors.pydantic.dev/2.5/v/missing",
             }
         ]
     }
