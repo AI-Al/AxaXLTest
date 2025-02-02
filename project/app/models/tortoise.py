@@ -1,5 +1,5 @@
-from tortoise import models
-from tortoise import fields
+from tortoise import models, fields
+from tortoise.contrib.pydantic import pydantic_model_creator
 
 class TextSummary(models.Model):
     url = fields.TextField()
@@ -11,3 +11,5 @@ class TextSummary(models.Model):
 
     def __str__(self):
         return self.url
+
+SummarySchema = pydantic_model_creator(TextSummary)
