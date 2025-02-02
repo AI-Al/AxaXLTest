@@ -16,3 +16,4 @@ tortoise
 aerich
 httpx
 pytest
+flake8
