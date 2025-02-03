@@ -8,3 +8,4 @@ aerich
 httpx
 pytest
 flake8
+logfire-python
