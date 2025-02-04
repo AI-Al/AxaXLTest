@@ -1,4 +1,5 @@
 import logging
+import os
 
 from fastapi import FastAPI
 
@@ -6,6 +7,9 @@ from app.api import ping, summaries
 from app.db import init_db
 from contextlib import asynccontextmanager
 
+import logfire
+
+logfire.configure()
 
 log = logging.getLogger("uvicorn")
 
