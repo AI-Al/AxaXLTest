@@ -1,4 +1,4 @@
-# AxaXLTechnical Challenge
+# AxaXL Technical Challenge
 Demo API using FastAPI
 This is to demonstrate the following:
 
