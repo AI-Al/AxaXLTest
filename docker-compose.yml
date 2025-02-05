@@ -14,7 +14,6 @@ services:
       - TESTING=0
       - DATABASE_URL=postgres://postgres:postgres@web-db:5432/web_dev
       - DATABASE_TEST_URL=postgres://postgres:postgres@web-db:5432/web_test
-      - LOGFIRE_TOKEN_FILE=/run/secrets/logfire_token
       - LOGFIRE_TOKEN=${MY_LOGFIRE_TOKEN}
     depends_on:
       - web-db
