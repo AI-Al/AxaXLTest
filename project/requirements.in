@@ -1,0 +1,13 @@
+fastapi
+pydantic-settings
+pydantic
+uvicorn
+asyncpg
+tortoise
+aerich
+httpx
+pytest
+flake8
+logfire
+logfire-python
+loguru
